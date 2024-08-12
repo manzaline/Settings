@@ -1,0 +1,14 @@
+<templateSet group="HTML/XML">
+  <template name="&lt;!" value="&lt;!-- $END$ --&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;%" value="&lt;%-- $end$ --%&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
