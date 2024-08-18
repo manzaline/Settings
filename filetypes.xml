@@ -1,13 +1,14 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="application-dev.yml" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="imports" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping pattern="application-dev.yml" approved="true" type="AUTO_DETECTED" />
+      <removed_mapping pattern="rhkrwnstjr.yaml" approved="true" type="AUTO_DETECTED" />
     </extensionMap>
   </component>
 </application>
