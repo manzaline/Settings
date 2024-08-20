@@ -1,6 +1,6 @@
 <application>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1722999051720" />
+    <option name="lastTrimTime" value="1724151469874" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="KOREAN" />
@@ -10,6 +10,9 @@
     <option name="translationDialogLocationX" value="2339" />
     <option name="translationDialogLocationY" value="985" />
     <histories>
+      <item value="Verify the encoded password obtained from storage matches the submitted raw password after it too is encoded. Returns true if the passwords match, false if they do not. The stored password itself is never decoded. Params: rawPassword – the raw password to encode and match encodedPassword – the encoded password from storage to compare with Returns: true if the raw password, after encoding, matches the encoded password from storage" />
+      <item value="Service interface for encoding passwords. The preferred implementation is BCryptPasswordEncoder." />
+      <item value="Implementation of PasswordEncoder that uses the BCrypt strong hashing function. Clients can optionally supply a &quot;version&quot; (2a, 2b, 2y) and a &quot;strength&quot; (a.k.a. log rounds in BCrypt) and a SecureRandom instance. The larger the strength parameter the more work will have to be done (exponentially) to hash the passwords. The default value is 10." />
       <item value="Converts a path string, or a sequence of strings that when joined form a path string, to a Path. Params: first – the path string or initial part of the path string more – additional strings to be joined to form the path string Returns: the resulting Path Throws: InvalidPathException – if the path string cannot be converted to a Path Implementation Requirements: This method simply invokes Path.of(String, String...) with the given parameters. See Also: FileSystem.getPath, Path.of(String, String...)" />
       <item value="Returns a Path by converting a path string, or a sequence of strings that when joined form a path string. If more does not specify any elements then the value of the first parameter is the path string to convert. If more specifies one or more elements then each non-empty string, including first, is considered to be a sequence of name elements and is joined to form a path string. The details as to how the Strings are joined is provider specific but typically they will be joined using the name-separator as the separator. For example, if the name separator is &quot;&quot; and getPath(&quot;foo&quot;,&quot;bar&quot;,&quot;gus&quot;) is invoked, then the path string &quot;foobargus&quot; is converted to a Path. A Path representing an empty path is returned if first is the empty string and more does not contain any non-empty strings. The Path is obtained by invoking the getPath method of the default FileSystem. Note that while this method is very convenient, using it will imply an assumed reference to the default FileSystem and limit the utility of the calling code. Hence it should not be used in library code intended for flexible reuse. A more flexible alternative is to use an existing Path instance as an anchor, such as: Path dir = ... Path path = dir.resolve(&quot;file&quot;); Params: first – the path string or initial part of the path string more – additional strings to be joined to form the path string Returns: the resulting Path Throws: InvalidPathException – if the path string cannot be converted to a Path Since: 11 See Also: FileSystem.getPath" />
       <item value="This class consists exclusively of static methods that return a Path by converting a path string or URI. API Note: It is recommended to obtain a Path via the Path.of methods instead of via the get methods defined in this class as this class may be deprecated in a future release. Since: 1.7" />
@@ -39,8 +42,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="ENGLISH" value="23" />
-        <entry key="KOREAN" value="23" />
+        <entry key="ENGLISH" value="27" />
+        <entry key="KOREAN" value="27" />
       </map>
     </option>
   </component>
